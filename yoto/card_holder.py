@@ -20,4 +20,4 @@ inner = (
 # Remove the inner shell from outer
 holder = outer.cut(inner)
 
-show_object(holder)  # type: ignore
+holder.export("holder.stl")

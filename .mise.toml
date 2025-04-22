@@ -1,3 +1,5 @@
-[[watch_files]]
-patterns = ["**/*.py"]
-run = "ruff format"
+[tools]
+python = "3.12"
+
+[env]
+_.python.venv = { path = ".venv", create = true }
